@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+.head{
+    font-size: 3rem;
+    height: 30vh;
+    padding: 2rem;
+}
+.body{
+    height: 70vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.body-head{
+    width: 100%;
+    height: 100%;
+}
+.taps{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+}
+.tap{
+    height: 50px;
+    cursor: pointer;
+    
+}
+.tap1{
+    background-color: darkblue;
+    flex: 1;
+
+}
+.tap2{
+    background-color: red;
+    flex: 1;
+
+}
+.tap3{
+    background-color: green;
+    flex: 1;
+
+}
+.tap4{
+    background-color: yellow;
+    flex: 1;
+
+}
+.tap5{
+    background-color: palevioletred;
+    flex: 1;
+
+}
+.tap6{
+    background-color: brown;
+    flex: 1;
+
+}
+
+.body-head>div{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    animation-duration: 1s;
+    animation-name: jump;
+}
+
+@keyframes jump {
+    0%{
+        left: 0%;
+        bottom: 0%;
+    }
+    50%{
+        left: 50%;
+        bottom: 50%;
+    }
+    100%{
+        left: 90%;
+        bottom: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
